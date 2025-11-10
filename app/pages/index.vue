@@ -18,7 +18,7 @@
           Where Wellness
         </h1>
         <p class="text-6xl text-tertiary mb-6">Meets Nature.</p>
-        <p class="text-lg md:text-xl text-white leading-relaxed mb-8">
+        <p class="text-lg md:text-xl text-tertiary-dark leading-relaxed mb-8">
           Restoring balance through science, nature, and care — the Bio-Health way.
         </p>
         <button
@@ -209,6 +209,8 @@
       </p>
     </div>
   </section>
+
+  
  <section class="relative flex justify-center items-center h-screen bg-[#ddd8d1] overflow-hidden">
     <!-- Center Oval -->
     <div class="relative z-10 flex justify-center items-center bg-[#b8a48a] text-white text-2xl md:text-4xl font-bold rounded-full w-48 h-48 text-center shadow-2xl border border-white/30">
@@ -352,7 +354,7 @@
 
   <!-- Copyright -->
   <div class="mt-1 text-center text-md text-[#e8e6e4]">
-    &copy; 2025 Bio-Health Clinic. All rights reserved. <br> Powerd by Vortex Intelligence.
+    &copy; 2025 BioHealth Clinic. All rights reserved. <br> Powerd by Vortex Intelligence.
   </div>
 </footer>
 
