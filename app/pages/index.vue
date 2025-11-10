@@ -48,17 +48,16 @@
 
     <section ref="featuresSection" class="bg-tertiary-light py-20 px-8">
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-10 justify-between">
-            <!-- High Blood Pressure -->
+            <!-- Mental exhaustion  -->
             <div class="flex-1 text-center feature-card border-b md:border-b-0 md:border-r border-gray-300 pb-8 md:pb-0 md:pr-8 last:border-none">
                 <img 
-                    src="/blood.png" 
-                    alt="High Blood Pressure" 
+                    src="/mental.png" 
+                    alt="" 
                     class="w-24 h-24 mx-auto mb-4 rounded-full object-cover"
                 />
-                <p class="font-bold text-3xl text-black mb-4">High Blood Pressure</p>
+                <p class="font-bold text-3xl text-black mb-4">Mental exhaustion </p>
                 <p class="text-gray-800">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut quod labore, consequatur neque vitae non aperiam natus, assumenda laudantium.
-                </p>
+                    High stress levels and a demanding lifestyle are the main causes of mental drainage. Difficulty in concentration, low energy levels and reduced motivational drive are the symptoms you can experience</p>
             </div>
 
             <!-- Chronic Fatigue -->
@@ -68,10 +67,9 @@
                     alt="Chronic Fatigue" 
                     class="w-24 h-24 mx-auto mb-4 rounded-full object-cover"
                 />
-                <p class="font-bold text-3xl text-black mb-4">Chronic Fatigue</p>
+                <p class="font-bold text-3xl text-black mb-4">Chronic Fatigue </p>
                 <p class="text-gray-800">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut quod labore, consequatur neque vitae non aperiam natus, assumenda laudantium.
-                </p>
+                    Most people struggle with a constant feeling of tiredness even after a good night’s rest. Whether it is due to a known disease or an unknown cause, the body feel drained of energy </p>
             </div>
 
             <!-- Pain -->
@@ -83,8 +81,7 @@
                 />
                 <p class="font-bold text-3xl text-black mb-4">Pain</p>
                 <p class="text-gray-800">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut quod labore, consequatur neque vitae non aperiam natus, assumenda laudantium.
-                </p>
+                    Pain is not always gain..it is a warning that some system in the body has definite  damage or the potential of lasting damage</p>
             </div>
         </div>
     </section>
@@ -186,7 +183,190 @@
             </div>
         </div>
         </section>
+<section class="h-screen bg-tertiary-light">
+<h1 class="text-6xl md:text-8xl py-3 px-12 font-bold text-white text-center">
+      Our Story
+    </h1>
+       <section class="flex justify-center items-center min-h-screen  bg-[#6b5e4d] p-4">
+    <div class="bg-white bg-opacity-90 rounded-2xl shadow-2xl max-w-2xl p-8 border border-[#b8a48a] text-center">
+      <p class="text-gray-800 text-lg leading-relaxed whitespace-pre-line">
+        I’ve always had the calling to help people. When I was in grade 11
+        I got accepted into nursing school and started my studies in 2014.
+        I had the chance to further my studies in specialized nursing care
+        and practised in the critical care unit since 2022.
 
+        Although we treated patients with western medicine regimes, I
+        observed many times what the damaging side effects of that was.
+        I started to think of alternative ways to help people recover from
+        illness and managing chronic health issues. In December 2024 I had
+        the oppurtunity to come in contact with a holistic healer and started
+        to make plans to open my own natural clinic.
+
+        I also got my inspiration from the Bible. When God created
+        everything, He gave humankind all the plants for food and medicinal
+        purposes. Healing herbs like aloe, anise, cinnamon and many others
+        are mentioned in the bible and are still used today.
+      </p>
+    </div>
+  </section>
+ <section class="relative flex justify-center items-center h-screen bg-[#ddd8d1] overflow-hidden">
+    <!-- Center Oval -->
+    <div class="relative z-10 flex justify-center items-center bg-[#b8a48a] text-white text-2xl md:text-4xl font-bold rounded-full w-48 h-48 text-center shadow-2xl border border-white/30">
+      Our Services
+    </div>
+
+    <!-- Service items -->
+    <div class="absolute inset-0 flex justify-center items-center text-white text-center font-medium">
+
+      <!-- Top -->
+      <div class="absolute top-[10%]">
+        <p class="bg-[#b8a48a] px-4 py-2 rounded-full shadow-lg">
+          Body scan with ORMA machine
+        </p>
+      </div>
+
+      <!-- Top-right -->
+      <div class="absolute top-[22%] right-[18%]">
+        <p class="bg-[#b8a48a] px-4 py-2 rounded-full shadow-lg">
+          Treatment of ailments with <br /> 100% natural remedies
+        </p>
+      </div>
+
+      <!-- Bottom-right -->
+      <div class="absolute bottom-[22%] right-[18%]">
+        <p class="bg-[#b8a48a] px-4 py-2 rounded-full shadow-lg">
+          Ionic foot detox
+        </p>
+      </div>
+
+      <!-- Bottom -->
+      <div class="absolute bottom-[10%]">
+        <p class="bg-[#b8a48a] px-4 py-2 rounded-full shadow-lg">
+          Health education regarding <br /> a healthy lifestyle
+        </p>
+      </div>
+
+      <!-- Bottom-left -->
+      <div class="absolute bottom-[22%] left-[18%]">
+        <p class="bg-[#b8a48a] px-9 py-2 rounded-full shadow-lg">
+          Treatment of abnormal frequencies
+        </p>
+      </div>
+
+      <!-- Top-left -->
+      <div class="absolute top-[22%] left-[18%]">
+        <p class="bg-[#b8a48a] px-4 py-2 rounded-full shadow-lg">
+          3D frequency testing of <br /> cells with 3D NLS machine
+        </p>
+      </div>
+    </div>
+
+    <!-- Connecting lines (aligned perfectly) -->
+    <svg class="absolute inset-0 w-full h-full z-0" xmlns="http://www.w3.org/2000/svg">
+      <!-- Top -->
+      <line x1="50%" y1="50%" x2="50%" y2="10%" stroke="#b8a48a" stroke-width="2" />
+
+      <!-- Top-right -->
+      <line x1="50%" y1="50%" x2="78%" y2="25%" stroke="#b8a48a" stroke-width="2" />
+
+      <!-- Bottom-right -->
+      <line x1="50%" y1="50%" x2="78%" y2="75%" stroke="#b8a48a" stroke-width="2" />
+
+      <!-- Bottom -->
+      <line x1="50%" y1="50%" x2="50%" y2="90%" stroke="#b8a48a" stroke-width="2" />
+
+      <!-- Bottom-left -->
+      <line x1="50%" y1="50%" x2="22%" y2="75%" stroke="#b8a48a" stroke-width="2" />
+
+      <!-- Top-left -->
+      <line x1="50%" y1="50%" x2="22%" y2="25%" stroke="#b8a48a" stroke-width="2" />
+    </svg>
+  </section>
+   <!-- Contact Us Section -->
+  <section class="relative min-h-screen flex flex-col justify-center items-center px-4">
+    
+    <!-- Background Image with semi-transparent overlay -->
+    <div 
+      class="absolute inset-0 bg-cover bg-center z-0"
+      style="background-image: url('/contact.png');"
+    >
+      <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+    </div>
+
+    <!-- Form Block -->
+    <div class="relative z-10 w-full max-w-3xl bg-white bg-opacity-60 rounded-3xl shadow-2xl p-8">
+      <h2 class="text-4xl md:text-5xl font-bold text-center text-[#6b5e4d] mb-6">
+        Contact Us
+      </h2>
+
+      <form @submit.prevent="submitForm" class="space-y-4">
+        <input 
+          v-model="name"
+          type="text" 
+          placeholder="Your Name" 
+          class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#b8a48a]"
+          required
+        />
+        <input 
+          v-model="email"
+          type="email" 
+          placeholder="Your Email" 
+          class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#b8a48a]"
+          required
+        />
+        <textarea 
+          v-model="message"
+          placeholder="Your Message" 
+          class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#b8a48a] resize-none"
+          rows="5"
+          required
+        ></textarea>
+        <button 
+          type="submit" 
+          class="w-full bg-[#b8a48a] hover:bg-[#a8926f] transition-colors duration-300 text-white font-bold py-3 rounded-xl"
+        >
+          Send Message
+        </button>
+      </form>
+    </div>
+<!-- Contact Info Section -->
+<div class="relative z-10 mt-12 text-center">
+  <p class="text-2xl md:text-3xl text-[#f1f0ee] mb-4">
+    Phone: <a href="tel:+27123456789" class="font-bold hover:text-[#b8a48a]">064 738 9173</a>
+  </p>
+  <p class="text-2xl md:text-3xl text-[#e8e6e4]">
+    Email: <a href="mailto:luzane@biohealth.com" class="font-bold unde\ hover:text-[#b8a48a]">luzane@biohealth.com</a>
+  </p>
+</div>
+
+  </section>
+<!-- Footer -->
+<footer class="bg-[#2a2319] text-white py-8">
+  <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+    
+    
+    
+    
+   
+  </div>
+
+  <!-- Copyright -->
+  <div class="mt-1 text-center text-md text-[#e8e6e4]">
+    &copy; 2025 BioHealth Clinic. All rights reserved. <br> Powerd by Vortex Intelligence.
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+</section>
 
 
   </div>
