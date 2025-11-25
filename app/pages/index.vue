@@ -297,11 +297,11 @@ ORMA machine</h3>
 
 <script setup>
 import { ref, onMounted } from 'vue'
-import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+// import gsap from 'gsap'
+// import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import RadialMenu from '~/components/RadialMenu.vue'
 
-gsap.registerPlugin(ScrollTrigger)
+// gsap.registerPlugin(ScrollTrigger)
 
 const heroRef = ref(null)
 const heroContent = ref(null)
@@ -342,8 +342,11 @@ const reportColors = [
   ['#5e8d76', '#a8c9b7'], // darker green
 ]
 
-onMounted(() => {
+onMounted(async () => {
   // Hero text + CTA scroll animation
+  const gsap = (await import('gsap')).default
+  const ScrollTrigger = (await import('gsap/ScrollTrigger')).default
+  gsap.registerPlugin(ScrollTrigger)
   gsap.to([heroContent.value, ctaButton.value], {
     y: -50,
     opacity: 0,
