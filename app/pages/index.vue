@@ -167,49 +167,101 @@
       </div>
     </section>
 
-    <!-- Services radial — responsive adjustments -->
-    <section id="services" class="relative flex justify-center items-center h-[80vh] md:h-screen bg-[#ddd8d1] overflow-hidden">
-      <div class="relative z-10 flex justify-center items-center bg-[#b8a48a] text-white text-lg sm:text-2xl md:text-4xl font-bold rounded-full w-36 h-36 sm:w-44 sm:h-44 md:w-48 md:h-48 text-center shadow-2xl border border-white/30">
-        Our Services
-      </div>
+   <section class="relative py-16 bg-cover h-screen bg-center bg-no-repeat"
+  style="background-image: url('/service.jpg')">
+  
+  <!-- Dark Overlay -->
+  <div class="absolute inset-0 bg-black/50"></div>
 
-      <div class="absolute inset-0 flex justify-center items-center text-white text-center font-medium px-4">
-        <!-- various badges use slightly smaller padding on mobile -->
-        <div class="absolute top-[10%] text-xs sm:text-sm md:text-base">
-          <p class="bg-[#b8a48a] px-3 py-1 rounded-full shadow-lg">Body scan with ORMA machine</p>
-        </div>
+  <div class="relative max-w-7xl mx-auto px-6 text-center text-white">
+    
+    <h2 class="text-5xl font-bold mb-2 h-full">Our Services</h2>
+    <p class="text-lg mb-10">
+      Helping you achieve wellness naturally, one treatment at a time.
+    </p>
 
-        <div class="absolute top-[22%] right-[6%] md:right-[18%] text-xs sm:text-sm md:text-base">
-          <p class="bg-[#b8a48a] px-3 py-1 rounded-full shadow-lg">Treatment of ailments with 100% natural remedies</p>
-        </div>
+   <!-- Services Cards -->
+<div class="grid grid-cols-1 mt-30 sm:grid-cols-2 lg:grid-cols-6 xl:grid-cols-6 gap-6 justify-items-center">
 
-        <div class="absolute bottom-[22%] right-[6%] md:right-[18%] text-xs sm:text-sm md:text-base">
-          <p class="bg-[#b8a48a] px-3 py-1 rounded-full shadow-lg">Ionic foot detox</p>
-        </div>
+  <!-- SERVICE CARD 1 -->
+  <div class="bg-white/30 rounded-xl p-3 backdrop-blur-md flex flex-col items-center max-w-[160px] min-h-[400px]">
+    <div class="w-14 h-14 rounded-full flex justify-center items-center bg-primary mb-4">
+      <!-- icon here -->
+       <div class="w-14 h-14 flex justify-center items-center bg-primary text-white text-lg font-bold rounded-full">
+  H
+</div>
 
-        <div class="absolute bottom-[10%] text-xs sm:text-sm md:text-base">
-          <p class="bg-[#b8a48a] px-3 py-1 rounded-full shadow-lg">Health education regarding a healthy lifestyle</p>
-        </div>
+    </div>
+    <h3 class="text-sm font-semibold  text-white text-center mb-2">Body scan with 
+ORMA machine</h3>
+    <p class="text-sm text-white mt-11 text-center">A full-body scan that detects imbalances in your organs and cells using advanced ORMA technology, helping us identify what your body truly needs.</p>
+  </div>
+   <!-- SERVICE 2 -->
+  <div class="bg-white/30 rounded-xl p-3 backdrop-blur-md flex flex-col items-center max-w-[160px] min-h-[400px]">
+    <div class="w-14 h-14 rounded-full flex justify-center items-center bg-primary mb-4">
+      <!-- icon here -->
+       <div class="w-14 h-14 flex justify-center items-center bg-primary text-white text-lg font-bold rounded-full">
+  E
+</div>
 
-        <div class="absolute bottom-[22%] left-[6%] md:left-[18%] text-xs sm:text-sm md:text-base">
-          <p class="bg-[#b8a48a] px-6 py-1 rounded-full shadow-lg">Treatment of abnormal frequencies</p>
-        </div>
+    </div>
+    <h3 class="text-sm font-semibold text-white  text-center mb-2">3D frequency testing of cells with 3D NLS machine</h3>
+    <p class="text-sm text-white mt-6 text-center">Advanced 3D scanning that measures the frequency of your cells to detect health issues at the root before symptoms even appear.</p>
+  </div>
+ <!-- SERVICE CARD 3 -->
+  <div class="bg-white/30 rounded-xl p-3 backdrop-blur-md flex flex-col items-center max-w-[160px] min-h-[400px]">
+    <div class="w-14 h-14 rounded-full flex justify-center items-center bg-primary mb-4">
+      <!-- icon here -->
+       <div class="w-14 h-14 flex justify-center items-center bg-primary text-white text-lg font-bold rounded-full">
+  A
+</div>
 
-        <div class="absolute top-[22%] left-[6%] md:left-[18%] text-xs sm:text-sm md:text-base">
-          <p class="bg-[#b8a48a] px-3 py-1 rounded-full shadow-lg">3D frequency testing of cells with 3D NLS machine</p>
-        </div>
-      </div>
+    </div>
+    <h3 class="text-sm font-semibold text-white text-center mb-2">Treatment of abnormal frequencies</h3>
+    <p class="text-sm text-white mt-6 text-center">Natural treatment to correct abnormal body frequencies and restore balance to your organs, cells, and energy.</p>
+  </div>
+   <!-- SERVICE CARD 4 -->
+  <div class="bg-white/30 rounded-xl p-3 backdrop-blur-md flex flex-col items-center max-w-[160px] min-h-[400px]">
+    <div class="w-14 h-14 rounded-full flex justify-center items-center bg-primary mb-4">
+      <!-- icon here -->
+       <div class="w-14 h-14 flex justify-center items-center bg-primary text-white text-lg font-bold rounded-full">
+  L
+</div>
 
-      <!-- hide complex SVG on small screens -->
-      <svg class="absolute inset-0 w-full h-full z-0 hidden md:block" xmlns="http://www.w3.org/2000/svg">
-        <line x1="50%" y1="50%" x2="50%" y2="10%" stroke="#b8a48a" stroke-width="2" />
-        <line x1="50%" y1="50%" x2="78%" y2="25%" stroke="#b8a48a" stroke-width="2" />
-        <line x1="50%" y1="50%" x2="78%" y2="75%" stroke="#b8a48a" stroke-width="2" />
-        <line x1="50%" y1="50%" x2="50%" y2="90%" stroke="#b8a48a" stroke-width="2" />
-        <line x1="50%" y1="50%" x2="22%" y2="75%" stroke="#b8a48a" stroke-width="2" />
-        <line x1="50%" y1="50%" x2="22%" y2="25%" stroke="#b8a48a" stroke-width="2" />
-      </svg>
-    </section>
+    </div>
+    <h3 class="text-sm font-semibold text-white text-center mb-2">Treatment of ailments with 100% natural remedies </h3>
+    <p class="text-sm text-white mt-6 text-center">Holistic treatment using 100% natural remedies to support healing and boost the body’s self-recovery.</p>
+  </div>
+   <!-- SERVICE CARD 5 -->
+  <div class="bg-white/30 rounded-xl p-3 backdrop-blur-md flex flex-col items-center max-w-[160px] min-h-[400px]">
+    <div class="w-14 h-14 rounded-full flex justify-center items-center bg-primary mb-4">
+      <!-- icon here -->
+       <div class="w-14 h-14 flex justify-center items-center bg-primary text-white text-lg font-bold rounded-full">
+  T
+</div>
+
+    </div>
+<h3 class="text-sm font-semibold text-white text-center mb-2">Ionic foot detox</h3>
+    <p class="text-sm text-white mt-16 text-center">A gentle detox through the feet that helps remove toxins and improve overall energy and wellness.</p>
+  </div>
+
+<!-- SERVICE CARD 6-->
+  <div class="bg-white/30 rounded-xl p-3 backdrop-blur-md flex flex-col items-center max-w-[160px] min-h-[400px]">
+    <div class="w-14 h-14 rounded-full flex justify-center items-center bg-primary mb-4">
+      <!-- icon here -->
+       <div class="w-14 h-14 flex justify-center items-center bg-primary text-white text-lg font-bold rounded-full">
+  H
+</div>
+
+    </div>
+    <h3 class="text-sm font-semibold text-white text-center mb-2">Health education regarding a healthy lifestyle</h3>
+    <p class="text-sm text-white mt-6 text-center">Personal guidance on healthy living, nutrition, and habits to support long-term wellness and vitality.</p>
+  </div>
+    </div>
+
+  </div>
+</section> 
+
 
     <!-- Contact -->
     <section id="contact" class="relative min-h-screen flex flex-col justify-center items-center px-4">
@@ -237,7 +289,7 @@
     <!-- Footer -->
     <footer class="bg-[#2a2319] text-white py-6">
       <div class="max-w-6xl mx-auto px-4 text-center text-sm md:text-base">
-        &copy; 2025 BioHealth Clinic. All rights reserved. Powerd by Vortex Intelligence.
+        &copy; 2025 BioHealth Clinic. All rights reserved.  <br> Powerd by Vortex Intelligence.
       </div>
     </footer>
   </div>
