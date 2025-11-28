@@ -167,98 +167,76 @@
       </div>
     </section>
 
-   <section class="relative py-16 bg-cover h-screen bg-center bg-no-repeat"
+   <section class="relative py-16 md:py-20 bg-cover bg-center bg-no-repeat min-h-screen flex flex-col justify-center"
   style="background-image: url('/service.jpg')">
   
   <!-- Dark Overlay -->
   <div class="absolute inset-0 bg-black/50"></div>
 
-  <div class="relative max-w-7xl mx-auto px-6 text-center text-white">
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 text-center text-white">
     
-    <h2 class="text-5xl font-bold mb-2 h-full">Our Services</h2>
-    <p class="text-lg mb-10">
+    <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-2 md:mb-4">Our Services</h2>
+    <p class="text-base sm:text-lg mb-8 md:mb-12 px-2">
       Helping you achieve wellness naturally, one treatment at a time.
     </p>
 
    <!-- Services Cards -->
-<div class="grid grid-cols-1 mt-30 sm:grid-cols-2 lg:grid-cols-6 xl:grid-cols-6 gap-6 justify-items-center">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4 sm:gap-6 justify-items-center mt-8 md:mt-12">
 
   <!-- SERVICE CARD 1 -->
-  <div class="bg-white/30 rounded-xl p-3 backdrop-blur-md flex flex-col items-center max-w-[160px] min-h-[400px]">
-    <div class="w-14 h-14 rounded-full flex justify-center items-center bg-primary mb-4">
-      <!-- icon here -->
-       <div class="w-14 h-14 flex justify-center items-center bg-primary text-white text-lg font-bold rounded-full">
-  H
-</div>
-
+  <div class="bg-white/30 rounded-xl p-3 sm:p-5 backdrop-blur-md flex flex-col items-center w-full sm:max-w-[180px] lg:max-w-[160px] min-h-[auto] sm:min-h-[400px] hover:bg-white/40 transition-colors duration-300">
+    <div class="w-10 h-10 sm:w-14 sm:h-14 rounded-full flex justify-center items-center bg-primary mb-2 sm:mb-4 flex-shrink-0">
+      <div class="text-white text-sm sm:text-lg font-bold">H</div>
     </div>
-    <h3 class="text-sm font-semibold  text-white text-center mb-2">Body scan with 
-ORMA machine</h3>
-    <p class="text-sm text-white mt-11 text-center">A full-body scan that detects imbalances in your organs and cells using advanced ORMA technology, helping us identify what your body truly needs.</p>
-  </div>
-   <!-- SERVICE 2 -->
-  <div class="bg-white/30 rounded-xl p-3 backdrop-blur-md flex flex-col items-center max-w-[160px] min-h-[400px]">
-    <div class="w-14 h-14 rounded-full flex justify-center items-center bg-primary mb-4">
-      <!-- icon here -->
-       <div class="w-14 h-14 flex justify-center items-center bg-primary text-white text-lg font-bold rounded-full">
-  E
-</div>
-
-    </div>
-    <h3 class="text-sm font-semibold text-white  text-center mb-2">3D frequency testing of cells with 3D NLS machine</h3>
-    <p class="text-sm text-white mt-6 text-center">Advanced 3D scanning that measures the frequency of your cells to detect health issues at the root before symptoms even appear.</p>
-  </div>
- <!-- SERVICE CARD 3 -->
-  <div class="bg-white/30 rounded-xl p-3 backdrop-blur-md flex flex-col items-center max-w-[160px] min-h-[400px]">
-    <div class="w-14 h-14 rounded-full flex justify-center items-center bg-primary mb-4">
-      <!-- icon here -->
-       <div class="w-14 h-14 flex justify-center items-center bg-primary text-white text-lg font-bold rounded-full">
-  A
-</div>
-
-    </div>
-    <h3 class="text-sm font-semibold text-white text-center mb-2">Treatment of abnormal frequencies</h3>
-    <p class="text-sm text-white mt-6 text-center">Natural treatment to correct abnormal body frequencies and restore balance to your organs, cells, and energy.</p>
-  </div>
-   <!-- SERVICE CARD 4 -->
-  <div class="bg-white/30 rounded-xl p-3 backdrop-blur-md flex flex-col items-center max-w-[160px] min-h-[400px]">
-    <div class="w-14 h-14 rounded-full flex justify-center items-center bg-primary mb-4">
-      <!-- icon here -->
-       <div class="w-14 h-14 flex justify-center items-center bg-primary text-white text-lg font-bold rounded-full">
-  L
-</div>
-
-    </div>
-    <h3 class="text-sm font-semibold text-white text-center mb-2">Treatment of ailments with 100% natural remedies </h3>
-    <p class="text-sm text-white mt-6 text-center">Holistic treatment using 100% natural remedies to support healing and boost the body’s self-recovery.</p>
-  </div>
-   <!-- SERVICE CARD 5 -->
-  <div class="bg-white/30 rounded-xl p-3 backdrop-blur-md flex flex-col items-center max-w-[160px] min-h-[400px]">
-    <div class="w-14 h-14 rounded-full flex justify-center items-center bg-primary mb-4">
-      <!-- icon here -->
-       <div class="w-14 h-14 flex justify-center items-center bg-primary text-white text-lg font-bold rounded-full">
-  T
-</div>
-
-    </div>
-<h3 class="text-sm font-semibold text-white text-center mb-2">Ionic foot detox</h3>
-    <p class="text-sm text-white mt-16 text-center">A gentle detox through the feet that helps remove toxins and improve overall energy and wellness.</p>
+    <h3 class="text-xs sm:text-sm font-semibold text-white text-center mb-2 sm:mb-3">Body scan with ORMA machine</h3>
+    <p class="text-xs sm:text-sm text-white text-center leading-relaxed flex-grow">A full-body scan that detects imbalances in your organs and cells using advanced ORMA technology, helping us identify what your body truly needs.</p>
   </div>
 
-<!-- SERVICE CARD 6-->
-  <div class="bg-white/30 rounded-xl p-3 backdrop-blur-md flex flex-col items-center max-w-[160px] min-h-[400px]">
-    <div class="w-14 h-14 rounded-full flex justify-center items-center bg-primary mb-4">
-      <!-- icon here -->
-       <div class="w-14 h-14 flex justify-center items-center bg-primary text-white text-lg font-bold rounded-full">
-  H
-</div>
-
+  <!-- SERVICE CARD 2 -->
+  <div class="bg-white/30 rounded-xl p-3 sm:p-5 backdrop-blur-md flex flex-col items-center w-full sm:max-w-[180px] lg:max-w-[160px] min-h-[auto] sm:min-h-[400px] hover:bg-white/40 transition-colors duration-300">
+    <div class="w-10 h-10 sm:w-14 sm:h-14 rounded-full flex justify-center items-center bg-primary mb-2 sm:mb-4 flex-shrink-0">
+      <div class="text-white text-sm sm:text-lg font-bold">E</div>
     </div>
-    <h3 class="text-sm font-semibold text-white text-center mb-2">Health education regarding a healthy lifestyle</h3>
-    <p class="text-sm text-white mt-6 text-center">Personal guidance on healthy living, nutrition, and habits to support long-term wellness and vitality.</p>
+    <h3 class="text-xs sm:text-sm font-semibold text-white text-center mb-2 sm:mb-3">3D frequency testing of cells with 3D NLS machine</h3>
+    <p class="text-xs sm:text-sm text-white text-center leading-relaxed flex-grow">Advanced 3D scanning that measures the frequency of your cells to detect health issues at the root before symptoms even appear.</p>
   </div>
-    </div>
 
+  <!-- SERVICE CARD 3 -->
+  <div class="bg-white/30 rounded-xl p-3 sm:p-5 backdrop-blur-md flex flex-col items-center w-full sm:max-w-[180px] lg:max-w-[160px] min-h-[auto] sm:min-h-[400px] hover:bg-white/40 transition-colors duration-300">
+    <div class="w-10 h-10 sm:w-14 sm:h-14 rounded-full flex justify-center items-center bg-primary mb-2 sm:mb-4 flex-shrink-0">
+      <div class="text-white text-sm sm:text-lg font-bold">A</div>
+    </div>
+    <h3 class="text-xs sm:text-sm font-semibold text-white text-center mb-2 sm:mb-3">Treatment of abnormal frequencies</h3>
+    <p class="text-xs sm:text-sm text-white text-center leading-relaxed flex-grow">Natural treatment to correct abnormal body frequencies and restore balance to your organs, cells, and energy.</p>
+  </div>
+
+  <!-- SERVICE CARD 4 -->
+  <div class="bg-white/30 rounded-xl p-3 sm:p-5 backdrop-blur-md flex flex-col items-center w-full sm:max-w-[180px] lg:max-w-[160px] min-h-[auto] sm:min-h-[400px] hover:bg-white/40 transition-colors duration-300">
+    <div class="w-10 h-10 sm:w-14 sm:h-14 rounded-full flex justify-center items-center bg-primary mb-2 sm:mb-4 flex-shrink-0">
+      <div class="text-white text-sm sm:text-lg font-bold">L</div>
+    </div>
+    <h3 class="text-xs sm:text-sm font-semibold text-white text-center mb-2 sm:mb-3">Treatment of ailments with 100% natural remedies</h3>
+    <p class="text-xs sm:text-sm text-white text-center leading-relaxed flex-grow">Holistic treatment using 100% natural remedies to support healing and boost the body's self-recovery.</p>
+  </div>
+
+  <!-- SERVICE CARD 5 -->
+  <div class="bg-white/30 rounded-xl p-3 sm:p-5 backdrop-blur-md flex flex-col items-center w-full sm:max-w-[180px] lg:max-w-[160px] min-h-[auto] sm:min-h-[400px] hover:bg-white/40 transition-colors duration-300">
+    <div class="w-10 h-10 sm:w-14 sm:h-14 rounded-full flex justify-center items-center bg-primary mb-2 sm:mb-4 flex-shrink-0">
+      <div class="text-white text-sm sm:text-lg font-bold">T</div>
+    </div>
+    <h3 class="text-xs sm:text-sm font-semibold text-white text-center mb-2 sm:mb-3">Ionic foot detox</h3>
+    <p class="text-xs sm:text-sm text-white text-center leading-relaxed flex-grow">A gentle detox through the feet that helps remove toxins and improve overall energy and wellness.</p>
+  </div>
+
+  <!-- SERVICE CARD 6 -->
+  <div class="bg-white/30 rounded-xl p-3 sm:p-5 backdrop-blur-md flex flex-col items-center w-full sm:max-w-[180px] lg:max-w-[160px] min-h-[auto] sm:min-h-[400px] hover:bg-white/40 transition-colors duration-300">
+    <div class="w-10 h-10 sm:w-14 sm:h-14 rounded-full flex justify-center items-center bg-primary mb-2 sm:mb-4 flex-shrink-0">
+      <div class="text-white text-sm sm:text-lg font-bold">H</div>
+    </div>
+    <h3 class="text-xs sm:text-sm font-semibold text-white text-center mb-2 sm:mb-3">Health education regarding a healthy lifestyle</h3>
+    <p class="text-xs sm:text-sm text-white text-center leading-relaxed flex-grow">Personal guidance on healthy living, nutrition, and habits to support long-term wellness and vitality.</p>
+  </div>
+</div>
   </div>
 </section> 
 
